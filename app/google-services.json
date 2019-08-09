@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "709393405041",
+    "firebase_url": "https://iware-13252.firebaseio.com",
+    "project_id": "iware-13252",
+    "storage_bucket": "iware-13252.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:709393405041:android:8deb503dd84dd00e",
+        "android_client_info": {
+          "package_name": "com.example.iware"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "709393405041-8to9gl0acifmvgvibmmsuv8fvkltnbg2.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.iware",
+            "certificate_hash": "5125a31f99129efc0dc4e2c28b516058afdb7b0a"
+          }
+        },
+        {
+          "client_id": "709393405041-iainsich0h3q62e2qu3pjitfatb926ls.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCB0dyKNv0IVIaYaNMn8QWDV7rJOxkQS-k"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "709393405041-iainsich0h3q62e2qu3pjitfatb926ls.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
