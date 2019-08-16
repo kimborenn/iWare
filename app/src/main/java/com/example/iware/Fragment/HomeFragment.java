@@ -52,6 +52,8 @@ public class HomeFragment extends Fragment {
         postAdapter = new PostAdapter(getContext(), postList);
         recyclerView.setAdapter(postAdapter);
 
+        readPost();
+
         return view;
     }
 
@@ -71,11 +73,11 @@ public class HomeFragment extends Fragment {
                 postList.clear();
                 for (DataSnapshot snapshot : dataSnapshot.getChildren()) {
                     Post post = snapshot.getValue(Post.class);
-                    for(String id : followingList) {
-                        if(post.getPublisher().equals(id)){
+//                    for(String id : followingList) {
+//                        if(post.getPublisher().equals(id)){
                             postList.add(post);
-                        }
-                    }
+//                        }
+//                    }
                 }
 
                 postAdapter.notifyDataSetChanged();

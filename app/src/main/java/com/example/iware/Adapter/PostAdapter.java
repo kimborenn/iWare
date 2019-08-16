@@ -37,7 +37,7 @@ public class PostAdapter extends RecyclerView.Adapter<PostAdapter.ViewHolder> {
         this.mPost = mPost;
     }
 
-    private FirebaseUser firebaseUser
+    private FirebaseUser firebaseUser;
 
     @NonNull
     @Override
