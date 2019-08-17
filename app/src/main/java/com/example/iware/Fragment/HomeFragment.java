@@ -57,14 +57,7 @@ public class HomeFragment extends Fragment {
         return view;
     }
 
-//    private void checkFollowing(){
-//        followingList = new ArrayList<>();
-//
-//        DatabaseReference reference = FirebaseDatabase.getInstance().getReference("Follow")
-//                .child
-//    }
-
-    private void readPost(){
+    private void readPost() {
         DatabaseReference reference = FirebaseDatabase.getInstance().getReference("Posts");
 
         reference.addValueEventListener(new ValueEventListener() {
@@ -73,11 +66,7 @@ public class HomeFragment extends Fragment {
                 postList.clear();
                 for (DataSnapshot snapshot : dataSnapshot.getChildren()) {
                     Post post = snapshot.getValue(Post.class);
-//                    for(String id : followingList) {
-//                        if(post.getPublisher().equals(id)){
-                            postList.add(post);
-//                        }
-//                    }
+                    postList.add(post);
                 }
 
                 postAdapter.notifyDataSetChanged();
