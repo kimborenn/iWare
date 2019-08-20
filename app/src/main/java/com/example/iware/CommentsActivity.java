@@ -106,7 +106,7 @@ public class CommentsActivity extends AppCompatActivity
                 .child(postid);
         HashMap<String,Object> hashMap = new HashMap<>();
 
-        hashMap.put("Comment", addcomment.getText().toString());
+        hashMap.put("comment", addcomment.getText().toString());
         hashMap.put("publisher", firebaseUser.getUid());
 
         reference.push().setValue(hashMap);
