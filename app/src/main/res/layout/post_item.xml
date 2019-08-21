@@ -94,7 +94,7 @@
             android:layout_marginTop="5dp"
             android:layout_marginBottom="10dp"
             android:id="@+id/comments"
-            android:textColor="@color/colorAccent"/>
+            android:textColor="@color/cardview_shadow_start_color"/>
 
     </LinearLayout>
 
